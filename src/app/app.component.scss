@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+app-toolbar {
+  flex: 0;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+app-navbar {
+  flex: 1;
+}
+
+app-students {
+  flex: 4;
+}
+
+app-footer {
+  flex: 0;
+}
